@@ -1,5 +1,10 @@
 package VertexApps.com.NewsAPIData
 
+import VertexApps.com.AppConfig
+
 object NewsAPIData extends App {
-  println( "Hello World!" )
+  val conf = new AppConfig()
+  if (conf.fileExists) {
+    println(conf.NewsAPIConfiguration)
+  }
 }
