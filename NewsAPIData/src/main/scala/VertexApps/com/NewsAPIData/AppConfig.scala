@@ -13,7 +13,8 @@ class AppConfig {
   def fileExists: Boolean = appConfigFile.exists()
 
   lazy val NewsAPIConfiguration = {
-    val c =  config.getConfig("NewsApiDataConfiguration")
-    (c.getString("apiKey"))
+    val c =  config.getConfig("NewsApiDataConfiguration.NewsApi")
+    (c.getString("apiUrl"),
+      c.getString("apiKey"))
   }
 }
