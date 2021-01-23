@@ -10,6 +10,5 @@ def wordCount(str):
     for x in dic.items():
         print(x)
 
-
 if __name__ == '__main__':
     wordCount("Sayaram Gattu Mayukh Gattu Vishali Jangam")
