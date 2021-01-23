@@ -1,6 +1,6 @@
 
-def wordCount(str):
-    lst = str.split(" ")
+def wordCount(string):
+    lst = string.split(" ")
     dic = {}
     for word in lst:
         if word in dic.keys():
