@@ -7,8 +7,8 @@ def wordCount(str):
             dic[word] = dic[word] +1
         else:
             dic[word] = 1
-    for x, y in dic.items():
-        print(x + "=")
+    for x in dic.items():
+        print(x)
 
 
 if __name__ == '__main__':
