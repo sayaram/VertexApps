@@ -44,7 +44,6 @@ class LinkedList:
                 return temp.data
             temp = temp.next
 
-    @property
     def find_middle(self):
         fast = self.head
         slow = self.head
@@ -67,5 +66,5 @@ if __name__ == '__main__':
     link.add_item(18)
     print(link.find_nth(2).data)
     link.list_print()
-    print(link.find_secondlast())
+    print(link.find_secondlast)
     print(link.find_middle)
