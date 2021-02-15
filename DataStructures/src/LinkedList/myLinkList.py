@@ -16,7 +16,7 @@ class myLinkList:
                 looped = looped.next
             looped.next = new_node
 
-    def find2ndLast(self):
+    def findSecondLast(self):
         looped = self.head
         if self.head.next is None:
             return None
@@ -44,5 +44,5 @@ if __name__ == '__main__':
     objList.add(12)
     objList.add(16)
     objList.add(20)
-    print(objList.find2ndLast())
+    print(objList.findSecondLast())
     print(objList.findMiddle())
