@@ -1,6 +1,6 @@
 def AllParenthesis(num):
-    if num <= 1:
-        return "("
+    if num == 1:
+        return ")"
     return AllParenthesis(num - 1) + ")"
 
 

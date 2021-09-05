@@ -3,6 +3,5 @@ def sumNums(num):
         return num
     return num + sumNums(num - 1)
 
-
 if __name__ == '__main__':
-    print(sumNums(5))
+    print(sumNums(100))

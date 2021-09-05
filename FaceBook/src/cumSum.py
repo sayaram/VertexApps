@@ -6,7 +6,5 @@ def cummulativeSum(numbers):
         else:
             pos.append(pos[-1] + num)
     return pos
-
-
 if __name__ == '__main__':
     print(cummulativeSum([1, -1, 3]))

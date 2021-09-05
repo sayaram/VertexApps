@@ -3,7 +3,6 @@ class Node:
         self.data = data
         self.next = None
 
-
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -35,6 +34,7 @@ class LinkedList:
             size = size + 1
         return None
 
+
     def find_secondlast(self):
         temp = self.head
         if temp is None or temp.next is None:
@@ -55,7 +55,6 @@ class LinkedList:
             fast = fast.next.next
             slow = slow.next
         return -1
-
 
 if __name__ == '__main__':
     link = LinkedList()
